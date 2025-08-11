@@ -6,7 +6,7 @@ const URL=require('./models/url');
 
 const urlRoute=require('./routes/url');
 const staticRoute=require('./routes/staticRouter');
-// const userRoute=require('./routes/user');
+const userRoute=require('./routes/user');
 
 const app=express();
 const PORT=8001;

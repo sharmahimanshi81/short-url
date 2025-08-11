@@ -1,13 +1,13 @@
-// const express=require('express');
-// const {handleUserSignup}=require('../controllers/user')
+const express=require('express');
+const {handleUserSignup}=require('../controllers/user')
 
-// const router=express.Router();
+const router=express.Router();
 
-// // signup
+// signup
 
-// router.post('/',handleUserSignup);
+router.post('/',handleUserSignup);
 
 
 
-// module.exports=router;
+module.exports=router;
 
